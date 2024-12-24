@@ -57,14 +57,15 @@
     <link rel="stylesheet" href="assets/css/main-responsive.css">
 
     <script src="assets/js/jquery-3.1.0.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=YOUR_API_KEY"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
     <style>
-    #gmap_canvas {
-      height: 759px;
-      width: 100%;
-    }
-  </style>
+      #map {
+        height: 500px; /* Tinggi peta */
+        width: 100%;   /* Lebar peta */
+      }
+    </style>
 
   </head>
   <body>
@@ -123,12 +124,12 @@
               </div>
               <div class="collapse navbar-collapse" id="navbar-apecsaos">
                 <ul class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="index.html">Home</a></li>
+                  <li ><a href="index.html">Home</a></li>
                   <li><a href="aboutus.html">Profil</a></li>
                   <li><a href="services.html">Poli</a></li>
                   <li><a href="portfolio.html">Dokter</a></li>
                   <li><a href="career.html">Informasi</a></li>
-                  <li><a href="contactus.html">Pelayanan</a></li>
+                  <li class="active"><a href="contactus.html">Pelayanan</a></li>
                   <li><a href="contactus.html">Jadwal Dokter</a></li>
                   <li><a href="contactus.html">Indikator Mutu</a></li>
 
@@ -142,33 +143,21 @@
       <!-- END SCOPE NAVBAR BOOTSTRAP -->
       
       <!-- START SCOPE MAPS GOOGLE -->
-        <div class="maps-contact">
-          <div id="gmap_canvas"></div>
-        </div>
-        
-        <script>
-            function init_map() {
-              var myOptions = {
-                scrollwheel: false,
-                zoom: 15,
-                center: new google.maps.LatLng(-6.2974699, 106.8046039),
-                mapTypeId: google.maps.MapTypeId.TERRAIN
-              };
-              var map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
-              var marker = new google.maps.Marker({
-                map: map,
-                position: new google.maps.LatLng(-6.2974699, 106.8046039)
-              });
-              var infowindow = new google.maps.InfoWindow({
-                content: '<strong>PT. Apecsa Optima Solusi</strong><br>Jl. Cilandak Permai Raya No.17, Cilandak Barat, Daerah Khusus Ibukota Jakarta<br>12430 Jakarta Selatan<br>'
-              });
-              google.maps.event.addListener(marker, 'click', function() {
-                infowindow.open(map, marker);
-              });
-              infowindow.open(map, marker);
-            }
-            google.maps.event.addDomListener(window, 'load', init_map);
-        </script>
+        <div id="map"></div>
+          <script>
+            // Inisialisasi peta
+            var map = L.map('map').setView([-7.434658513901028, 111.02469097785065], 15); // Lokasi (Jakarta Selatan)
+
+            // Tambahkan tile layer dari OpenStreetMap
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+              attribution: '© OpenStreetMap contributors'
+            }).addTo(map);
+
+            // Tambahkan marker di lokasi tertentu
+            var marker = L.marker([-7.434658513901028, 111.02469097785065]).addTo(map)
+              .bindPopup("<b>Amal Sehat</b><br>Sragen")
+              .openPopup();
+          </script>
       <!-- END SCOPE MAPS GOOGLE -->
       
       <!-- START SCOPE INFORMATION ADDRESS -->
@@ -399,16 +388,16 @@
       </section>
       <!-- END SCOPE FORM CONTACT US -->
 
-      <!-- START SCOPE FOOTER -->
+  <!-- START SCOPE FOOTER -->
       <footer class="footer-wrapper diagonal-shadow">
         <div class="container">
           <div class="col-md-12">
             <div class="box-footer">
               <div class="image">
-                <img src="assets/images/logo/logo.png" alt="">
+                <img src="assets/images/logo/logorsia.png" alt="" width="100" height="100">
               </div>
               <div class="social-media">
-                <a href="http://facebook.com" class="btn btn-default btn-social-media facebook">
+                <a href="https://www.facebook.com/AmalSehatSragen/?locale=id_ID" class="btn btn-default btn-social-media facebook">
                   <i class="fa fa-facebook"></i>
                 </a>
                 <a href="http://twitter.com" class="btn btn-default btn-social-media twitter">
@@ -417,12 +406,12 @@
                 <a href="http://linkedin.com" class="btn btn-default btn-social-media linkedin">
                   <i class="fa fa-linkedin"></i>
                 </a>
-                <a href="http://instagram.com" class="btn btn-default btn-social-media instagram">
+                <a href="https://www.instagram.com/rsiamalsehatsragen/" class="btn btn-default btn-social-media instagram">
                   <i class="fa fa-instagram"></i>
                 </a>
               </div>
               <div class="corpyright">
-                <span>&copy; Corpytight 2016 PT. Apecsa Optima Solusi</span><br>
+                <span>&copy; Corpytight 2025 RSI Amal Sehat Sragen</span><br>
                 <span>Anything Is Possible</span>
               </div>
             </div>

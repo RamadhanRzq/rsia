@@ -228,8 +228,8 @@ section {
 .btn-apecsa-red {
   font-family: source-sans-pro-regular;
   color: #fff;
-  background-color: #bc1f5c;
-  border-color: #bc1f5c; }
+  background-color: #3cb371;
+  border-color: #3cb371; }
   .btn-apecsa-red:hover {
     background-color: #a01c4f;
     color: #FFFFFF;
@@ -255,7 +255,7 @@ section {
   color: #F17127; }
 
 .color-red-pink {
-  color: #BC1F5C; }
+  color: #3cb371; }
 
 .color-red-light {
   color: #EF4035; }
@@ -279,7 +279,7 @@ section {
   background: #F17127; }
 
 .bg-red-pink {
-  background: #BC1F5C; }
+  background: #3cb371; }
 
 .bg-red-light {
   background: #EF4035; }
@@ -460,7 +460,7 @@ section {
 
 .diagonal-shadow::before {
   height: 25%;
-  background: #BC1F5C;
+  background: #3cb371;
   -webkit-transform: rotate(-3deg);
   transform: rotate(-3deg);
   -webkit-transform-origin: 3% 0;
@@ -736,15 +736,15 @@ section {
       -o-transition: all 0.4s ease-in-out;
       transition: all 0.4s ease-in-out; }
       .development-categories .box-categories .list-categories:hover .box-icon {
-        background-color: #BC1F5C; }
+        background-color: #3cb371; }
         .development-categories .box-categories .list-categories:hover .box-icon .icon {
-          background-color: #BC1F5C;
+          background-color: #3cb371;
           -webkit-transition: all 0.4s ease-in-out;
           -moz-transition: all 0.4s ease-in-out;
           -o-transition: all 0.4s ease-in-out;
           transition: all 0.4s ease-in-out; }
       .development-categories .box-categories .list-categories:hover .title {
-        color: #BC1F5C;
+        color: #3cb371;
         -webkit-transition: all 0.4s ease-in-out;
         -moz-transition: all 0.4s ease-in-out;
         -o-transition: all 0.4s ease-in-out;
@@ -1051,7 +1051,7 @@ section {
     margin-bottom: 50px; }
     .content-video .content-wrapper .title {
       font-size: 20px;
-      color: #BC1F5C;
+      color: #3cb371;
       margin-bottom: 20px;
       letter-spacing: 2px;
       font-family: open-sans-bold; }
@@ -1063,7 +1063,7 @@ section {
   display: inline-block;
   position: relative; }
   .counting-data:after {
-    border-top: 45px solid #BC1F5C;
+    border-top: 45px solid #3cb371;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     bottom: -40px;
@@ -1083,7 +1083,7 @@ section {
         width: 33.3333%;
         float: left;
         padding: 60px 0px;
-        background: #BC1F5C;
+        background: #3cb371;
         border-right: 1px solid #AB0F4C; }
         .counting-data .list-data ul li:last-child {
           border: 0px; }
@@ -1133,7 +1133,7 @@ section {
           transition: all 0.4s ease-in-out; }
           .our-team .list-team .box-user .image:hover .overlay {
             position: absolute;
-            background: rgba(188, 31, 92, 0.87);
+            background: rgba(60, 179, 113);
             top: 0;
             bottom: 0;
             left: 0;
@@ -1246,7 +1246,7 @@ section {
   display: inline-block;
   position: relative; }
   .adresses:after {
-    border-top: 45px solid #BC1F5C;
+    border-top: 45px solid #3cb371;
     border-left: 40px solid transparent;
     border-right: 40px solid transparent;
     bottom: -40px;
@@ -1268,7 +1268,7 @@ section {
         height: 165px;
         float: left;
         padding: 26px 0px;
-        background: #BC1F5C;
+        background: #3cb371;
         border-right: 1px solid #AB0F4C;
         display: inline-block; }
         .adresses .list-data ul li:last-child {
