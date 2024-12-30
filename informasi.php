@@ -60,120 +60,9 @@
   </head>
   <body>
     <div class="apecsaos-wrapper">
-      <!-- START SCOPE HEADER -->
-      <!-- <header class="header-wrapper">
-        <div class="container">
-          <div class="box-header">
-            <div class="introduce">
-              <span>
-                Selamat datang di PT. Apecsa Optima Solusi
-              </span>
-            </div>
-            <div class="content">
-              <ul>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                  <span>admin@apecsa-indonesia.com</span>
-                </li>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <span>(021) 234 454</span>
-                </li>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-map-marker"></i>
-                  </div>
-                  <span>Cilandak, Jakarta Selatan</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header> -->
-      <!-- END SCOPE HEADER -->
 
-      <!-- START SCOPE NAVBAR BOOTSTRAP -->
-        <div id="navbar-fixed-apecsaos">
-          <nav class="navbar navbar-default">
-            <div class="container">
-              <div class="col-md-12">
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-apecsaos" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="/">
-                    <img src="assets/images/logo/logo RSIAS1.png" alt="ApecsaOS">
-                  </a>
-                </div>
-                <div class="collapse navbar-collapse" id="navbar-apecsaos">
-                  <ul class="nav navbar-nav navbar-right">
-                    <li ><a href="index.html">Home</a></li>
-                    <li><a href="profil.html">Profil</a></li>
-                    <!-- Dropdown Poli -->
-                    <li class="dropdown">
-                      <a href="poli.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        Poli <span class="caret"></span>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a href="poli_penyakit_dalam.html">Poli Penyakit Dalam</a></li>
-                        <li><a href="poli_bedah_tulang.html">Poli Bedah Tulang</a></li>
-                        <li><a href="poli_mata.html">Poli Mata</a></li>
-                        <li><a href="poli_paru.html">Poli Paru dan Pernafasan</a></li>
-                        <li><a href="poli_kandungan.html">Poli Kandungan</a></li>
-                        <li><a href="poli_jiwa.html">Poli Kesehatan Jiwa</a></li>
-                        <li><a href="poli_urologi.html">Poli Urologi</a></li>
-                        <li><a href="poli_anak.html">Poli Anak</a></li>
-                        <li><a href="poli_jantung.html">Poli Jantung & Pembuluh Darah</a></li>
-                        <li><a href="poli_tht.html">Poli THT</a></li>
-                        <li><a href="poli_kulit.html">Poli Kulit dan Kelamin</a></li>
-                        <li><a href="poli_neurologi.html">Poli Neurologi</a></li>
-                        <li><a href="poli_bedah.html">Poli Bedah Umum</a></li>
-                        <li><a href="poli_gigi.html">Poli Gigi</a></li>
-                        <li><a href="poli_saraf.html">Poli Saraf</a></li>
-                        <li><a href="poli_ortopedi.html">Poli Ortopedi dan Traumatologi</a></li>
-                        <li><a href="poli_fisio.html">Poli Fisioterapi</a></li>
-                        <li><a href="poli_gigi.html">Poli Konservasi Gigi</a></li>
-                        <li><a href="poli_bedah.html">Poli Bedah Onkologi</a></li>
-                        <li><a href="poli_rehabilitasi.html">Poli Kedokteran Fisik & Rehabilitasi</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="dokter.html">Dokter</a></li>
-                    <li class="active"><a href="informasi.html">Informasi</a></li>
-                    <!-- Dropdown Pelayanan -->
-                    <li class="dropdown">
-                      <a href="pelayanan.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        Pelayanan <span class="caret"></span>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a href="poli_penyakit_dalam.html">Installasi Gawat Darurat</a></li>
-                        <li><a href="poli_bedah_tulang.html">Pelayanan Rawat Jalan</a></li>
-                        <li><a href="poli_mata.html">Pelayanan Rawat Inap</a></li>
-                        <li><a href="poli_paru.html">Pelayanan Farmasi</a></li>
-                        <li><a href="poli_kandungan.html">Pelayanan Operasi/Bedah</a></li>
-                        <li><a href="poli_jiwa.html">Pelayanan Gizi</a></li>
-                        <li><a href="poli_urologi.html">Pelayanan Fisioterapi</a></li>
-                        <li><a href="poli_anak.html">Pelayanan Bagian Kerohanian</a></li>
-                        <li><a href="poli_jantung.html">Pelayanan Laboratorium</a></li>
-                        <li><a href="poli_tht.html">Medical Checkup</a></li>
-                        <li><a href="poli_kulit.html">Instalasi Radiologi</a></li>
-                        <li><a href="poli_neurologi.html">Unit Gawat Darurat (UGD)</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="jadwal.html">Jadwal Dokter</a></li>
-                    <li><a href="kontak.html">Kontak Kami</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>
-        </div>
+       <!-- START SCOPE NAVBAR BOOTSTRAP -->
+        <?php include 'header.php'; ?>
       <!-- END SCOPE NAVBAR BOOTSTRAP -->
       
       <!-- START SCOPE SUB HEADER -->
@@ -333,40 +222,10 @@
       </section>
       <!-- END SCOPE LIST INFORMATION CAREER -->
 
-  <!-- START SCOPE FOOTER -->
-      <footer class="footer-wrapper diagonal-shadow">
-        <div class="container">
-          <div class="col-md-12">
-            <div class="box-footer">
-              <div class="image">
-                <img src="assets/images/logo/logorsia.png" alt="" width="100" height="100">
-              </div>
-              <div class="social-media">
-                <a href="https://www.facebook.com/AmalSehatSragen/?locale=id_ID" class="btn btn-default btn-social-media facebook">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <a href="http://twitter.com" class="btn btn-default btn-social-media twitter">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <a href="http://linkedin.com" class="btn btn-default btn-social-media linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="https://www.instagram.com/rsiamalsehatsragen/" class="btn btn-default btn-social-media instagram">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </div>
-              <div class="corpyright">
-                <span>&copy; Corpytight 2025 RSI Amal Sehat Sragen</span><br>
-                <span>Anything Is Possible</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <!-- START SCOPE FOOTER -->
+        <?php include 'footer.php'; ?>
       <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
+      
     </div>
   </body>
 

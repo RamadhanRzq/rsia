@@ -177,28 +177,28 @@ section {
     height: 100%;
     bottom: 0;
     z-index: 0;
-    background: url(../images/sub_header/header2.jpg) repeat; }
+    background: url(../images/sub_header/gedungrsi.jpeg) repeat; }
 
 .bg-img-1 {
-  background-image: url(../images/sub_header/header2.jpg);
+  background-image: url(../images/sub_header/gedungrsi.jpeg);
   min-height: 100%; }
   .bg-img-1:before {
     background: rgba(0, 0, 0, 0.43); }
 
 .bg-img-2 {
-  background-image: url(../images/sub_header/header2.jpg);
+  background-image: url(../images/sub_header/gedungrsi.jpeg);
   min-height: 100%; }
   .bg-img-2:before {
     background: rgba(0, 0, 0, 0.43); }
 
 .bg-service {
-  background-image: url(../images/sub_header/header2.jpg);
+  background-image: url(../images/sub_header/gedungrsi.jpeg);
   min-height: 100%; }
   .bg-service:before {
     background: rgba(0, 0, 0, 0.43); }
 
 .bg-portfolio {
-  background-image: url(../images/sub_header/header2.jpg);
+  background-image: url(../images/sub_header/gedungrsi.jpeg);
   min-height: 100%; }
   .bg-portfolio:before {
     background: rgba(0, 0, 0, 0.43); }
@@ -669,7 +669,7 @@ section {
     margin-left: -21px;
     width: 0;
     height: 0;
-    z-index: 99; }
+     }
   .testimonial-client .box-testimonial {
     width: 100%;
     margin-top: 30px;

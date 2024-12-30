@@ -60,45 +60,12 @@
     <script src="assets/js/jquery-3.1.0.min.js"></script>
   </head>
   <body>
-    <div class="apecsaos-wrapper">
-      <!-- START SCOPE HEADER -->
-      <!-- <header class="header-wrapper">
-        <div class="container">
-          <div class="box-header">
-            <div class="introduce">
-              <span>
-                Selamat datang di PT. Apecsa Optima Solusi
-              </span>
-            </div>
-            <div class="content">
-              <ul>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                  <span>admin@apecsa-indonesia.com</span>
-                </li>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <span>(021) 234 454</span>
-                </li>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-map-marker"></i>
-                  </div>
-                  <span>Cilandak, Jakarta Selatan</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>  -->
-      <!-- END SCOPE HEADER -->
-        
+    
+      <!-- START SCOPE NAVBAR BOOTSTRAP -->
+        <?php include 'header.php'; ?>
       <!-- END SCOPE NAVBAR BOOTSTRAP -->
 
+    <div class="apecsaos-wrapper">
       <!-- START SCOPE CAROUSEL SLIDER -->
       <div class="slider-apecsa">
         <div class="tp-banner-container">
@@ -140,11 +107,11 @@
                 data-transition="curtain-3"
                 data-slotamount="1"
                 data-masterspeed="1300"
-                data-thumb="assets/images/slider/foto1.jpg"
+                data-thumb="assets/images/slider/gedungrsi.jpeg"
                 data-saveperformance="off"
                 data-title="With Awsome Services">
                 <img
-                  src="assets/images/slider/foto1.jpg"
+                  src="assets/images/slider/gedungrsi.jpeg"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -463,39 +430,9 @@
       <!-- END SCOPE TESTIMONIAL CLIENT -->
 
       <!-- START SCOPE FOOTER -->
-      <footer class="footer-wrapper diagonal-shadow">
-        <div class="container">
-          <div class="col-md-12">
-            <div class="box-footer">
-              <div class="image">
-                <img src="assets/images/logo/logorsia.png" alt="" width="100" height="100">
-              </div>
-              <div class="social-media">
-                <a href="https://www.facebook.com/AmalSehatSragen/?locale=id_ID" class="btn btn-default btn-social-media facebook">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <a href="http://twitter.com" class="btn btn-default btn-social-media twitter">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <a href="http://linkedin.com" class="btn btn-default btn-social-media linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="https://www.instagram.com/rsiamalsehatsragen/" class="btn btn-default btn-social-media instagram">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </div>
-              <div class="corpyright">
-                <span>&copy; Corpytight 2025 RSI Amal Sehat Sragen</span><br>
-                <span>Anything Is Possible</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+        <?php include 'footer.php'; ?>
       <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
+
     </div>
   </body>
 
