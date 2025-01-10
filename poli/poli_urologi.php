@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-<?php
-include('../conf/koneksi.php');
-
-// Query SQL
-$sql_cek = "SELECT * FROM tb_poli WHERE id='7'";
-$query_cek = mysqli_query($koneksi, $sql_cek);
-
-// Cek apakah query berhasil
-if (!$query_cek) {
-    die("Query gagal: " . mysqli_error($koneksi));
-}
-
-// Ambil data
-$data_cek = mysqli_fetch_array($query_cek, MYSQLI_BOTH);
-?>
-
-
-=======
->>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
 <!DOCTYPE html>
 <html>
   <head>

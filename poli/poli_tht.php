@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-<?php
-include('../conf/koneksi.php');
-
-// Query SQL
-$sql_cek = "SELECT * FROM tb_poli WHERE id='10'";
-$query_cek = mysqli_query($koneksi, $sql_cek);
-
-// Cek apakah query berhasil
-if (!$query_cek) {
-    die("Query gagal: " . mysqli_error($koneksi));
-}
-
-// Ambil data
-$data_cek = mysqli_fetch_array($query_cek, MYSQLI_BOTH);
-?>
-
-
-=======
->>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
 <!DOCTYPE html>
 <html>
   <head>
@@ -90,7 +70,6 @@ $data_cek = mysqli_fetch_array($query_cek, MYSQLI_BOTH);
         <div class="container">
           <div class="col-md-12">
             <div class="title">
-<<<<<<< HEAD
               Poli THT
             </div>
             <div class="description">
@@ -99,12 +78,10 @@ $data_cek = mysqli_fetch_array($query_cek, MYSQLI_BOTH);
 
             <div class="description">
               <?php echo $data_cek['badan_poli']; ?>
-=======
               Poli Anak
             </div>
             <div class="description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem atque perspiciatis animi dicta, quae nesciunt error facere commodi quos odio ex aliquid aspernatur hic nisi accusantium sequi mollitia et? Quos!
->>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
             </div>
           </div>
         </div>

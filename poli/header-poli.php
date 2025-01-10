@@ -72,11 +72,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-<<<<<<< HEAD
                   <a class="navbar-brand" href="">
-=======
                   <a class="navbar-brand" href="/">
->>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
                     <img src="../assets/images/logo/logo RSIAS1.png" alt="ApecsaOS">
                   </a>
                 </div>
@@ -119,7 +116,6 @@
                         Pelayanan <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu">
-<<<<<<< HEAD
                         <li><a href="pelayanan_igd.php">Installasi Gawat Darurat</a></li>
                         <li><a href="pelayanan_rajal.php">Pelayanan Rawat Jalan</a></li>
                         <li><a href="pelayanan_ranap.php">Pelayanan Rawat Inap</a></li>
@@ -132,7 +128,6 @@
                         <li><a href="pelayanan_checkup.php">Medical Checkup</a></li>
                         <li><a href="pelayanan_radiologi.php">Instalasi Radiologi</a></li>
                         <li><a href="pelayanan_ugd.php">Unit Gawat Darurat (UGD)</a></li>
-=======
                         <li><a href="poli_penyakit_dalam.html">Installasi Gawat Darurat</a></li>
                         <li><a href="poli_bedah_tulang.html">Pelayanan Rawat Jalan</a></li>
                         <li><a href="poli_mata.html">Pelayanan Rawat Inap</a></li>
@@ -145,7 +140,6 @@
                         <li><a href="poli_tht.html">Medical Checkup</a></li>
                         <li><a href="poli_kulit.html">Instalasi Radiologi</a></li>
                         <li><a href="poli_neurologi.html">Unit Gawat Darurat (UGD)</a></li>
->>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
                       </ul>
                     </li>
                     <li><a href="../jadwal.php">Jadwal Dokter</a></li>

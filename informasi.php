@@ -74,11 +74,7 @@
               Pusat Informasi RSI Amal Sehat
             </div>
             <div class="description">
-<<<<<<< HEAD
-              
-=======
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem atque perspiciatis animi dicta, quae nesciunt error facere commodi quos odio ex aliquid aspernatur hic nisi accusantium sequi mollitia et? Quos!
->>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
             </div>
           </div>
         </div>
@@ -86,7 +82,6 @@
       <!-- END SCOPE SUB HEADER -->
       
       <!-- START SCOPE LIST INFORMATION CAREER -->
-<<<<<<< HEAD
       <?php
         include 'tampilkan_informasi.php';
       ?>
@@ -95,7 +90,6 @@
         include 'tampilkan_promo.php';
       ?>
       
-=======
       <section class="list-career bg-gray">
         <div class="container">
           <div class="col-md-7">
@@ -234,7 +228,6 @@
           </div>
         </div>
       </section>
->>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
       <!-- END SCOPE LIST INFORMATION CAREER -->
 
       <!-- START SCOPE FOOTER -->
