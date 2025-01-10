@@ -1,16 +1,16 @@
 <?php
 // Konfigurasi database
-$host = "localhost"; // Host database
-$user = "rsi"; // Username database
+$host = "192.168.155.3"; // Host database
+$user = "humas"; // Username database
 $password = "12345678"; // Password database
-$dbname = "humas"; // Nama database
+$dbname = "landingpage"; // Nama database
 
 // Membuat koneksi
-$conn = new mysqli($host, $user, $password, $dbname);
+$koneksi = new mysqli($host, $user, $password, $dbname);
 
 // Periksa koneksi
-if ($conn->connect_error) {
+if ($koneksi->connect_error) {
     die("Koneksi gagal: " . $conn->connect_error);
 }
-echo "Koneksi berhasil!";
+//echo "Koneksi berhasil!";
 ?>

@@ -1,3 +1,5 @@
+<?php include('conf/koneksi.php'); ?>
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -58,47 +60,17 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery-3.1.0.min.js"></script>
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="assets/css/style.css" rel="stylesheet">
   </head>
   <body>
-    <div class="apecsaos-wrapper">
-      <!-- START SCOPE HEADER -->
-      <!-- <header class="header-wrapper">
-        <div class="container">
-          <div class="box-header">
-            <div class="introduce">
-              <span>
-                Selamat datang di PT. Apecsa Optima Solusi
-              </span>
-            </div>
-            <div class="content">
-              <ul>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                  <span>admin@apecsa-indonesia.com</span>
-                </li>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <span>(021) 234 454</span>
-                </li>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-map-marker"></i>
-                  </div>
-                  <span>Cilandak, Jakarta Selatan</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header>  -->
-      <!-- END SCOPE HEADER -->
-        
+    
+      <!-- START SCOPE NAVBAR BOOTSTRAP -->
+        <?php include 'header.php'; ?>
       <!-- END SCOPE NAVBAR BOOTSTRAP -->
 
+    <div class="apecsaos-wrapper">
       <!-- START SCOPE CAROUSEL SLIDER -->
       <div class="slider-apecsa">
         <div class="tp-banner-container">
@@ -125,11 +97,11 @@
                 data-transition="slotzoom-horizontal"
                 data-slotamount="1"
                 data-masterspeed="1000"
-                data-thumb="assets/images/slider/ok.jpg"
+                data-thumb="assets/images/slider/gedungrsi.jpeg"
                 data-saveperformance="off"
                 data-title="We are Awsome">
                 <img
-                  src="assets/images/slider/ok.jpg"
+                  src="assets/images/slider/gedungrsi.jpeg"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -140,11 +112,11 @@
                 data-transition="curtain-3"
                 data-slotamount="1"
                 data-masterspeed="1300"
-                data-thumb="assets/images/slider/foto1.jpg"
+                data-thumb="assets/images/slider/gedung.jpg"
                 data-saveperformance="off"
                 data-title="With Awsome Services">
                 <img
-                  src="assets/images/slider/foto1.jpg"
+                  src="assets/images/slider/gedung.jpg"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -154,11 +126,25 @@
                 data-transition="slideright"
                 data-slotamount="1"
                 data-masterspeed="1300"
-                data-thumb="assets/images/slider/slider_4.jpg"
+                data-thumb="assets/images/slider/ruang.jpg"
                 data-saveperformance="off"
                 data-title="We are Awsome">
                 <img
-                  src="assets/images/slider/slider_4.jpg"
+                  src="assets/images/slider/ruang.jpg"
+                  alt=""
+                  data-bgposition="center top"
+                  data-bgfit="cover"
+                  data-bgrepeat="no-repeat">
+              </li>
+              <li
+                data-transition="slideright"
+                data-slotamount="1"
+                data-masterspeed="1300"
+                data-thumb="assets/images/slider/ruang2.jpeg"
+                data-saveperformance="off"
+                data-title="We are Awsome">
+                <img
+                  src="assets/images/slider/ruang2.jpeg"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -177,71 +163,16 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-section">Promo dan Layanan RSI Amal Sehat</span>
+
+                
+                <span class="bg-section">Promo dan Layanan</span>
               </div>
               <div class="desc color-black">
-                Keterangan Promo
+                RSI AMAL SEHAT
               </div>
             </div>
           </div>
-          <div class="col-md-12">
-            <div class="row">
-              <div class="box-categories">
-                <div class="col-md-4">
-                  <div class="list-categories">
-                    <div class="box-icon">
-                      <div class="icon bg-red-light">
-                        <i class="fa fa-desktop"></i>
-                      </div>
-                    </div>
-                    <div class="title">
-                      Promo 1
-                    </div>
-                    <div class="description">
-                      <p>
-                        Keterangan promo 1
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="list-categories">
-                    <div class="box-icon">
-                      <div class="icon bg-red-light">
-                        <i class="fa fa-mobile"></i>
-                      </div>
-                    </div>
-                    <div class="title">
-                      Promo 2
-                    </div>
-                    <div class="description">
-                      <p>
-                        Keterangan promo 2
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="list-categories">
-                    <div class="box-icon">
-                      <div class="icon bg-red-light">
-                        <i class="fa fa-heart"></i>
-                      </div>
-                    </div>
-                    <div class="title">
-                      Promo 3
-                    </div>
-                    <div class="description">
-                      <p>
-                        Keterangan promo <h3></h3>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+         
       </section>
       <!-- END SCOPE DEVELOPMENT CATEGORIES -->
 
@@ -251,47 +182,17 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-red-pink color-white">LAYANAN UNGGULAN RSI Amal Sehat</span>
+                <span class="bg-red-pink color-white">LAYANAN UNGGULAN</span>
               </div>
               <div class="desc color-white">
-                Keterangan apaitu layanan unggulan
+                RSI AMAL SEHAT
               </div>
             </div>
           </div>
           <div class="col-md-12">
             <div class="stepwizard">
-              <div class="stepwizard-row">
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-user"></i>
-                  </button>
-                  <p class="color-white">layanan unggulan A</p>
-                </div>
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-gear"></i>
-                  </button>
-                  <p class="color-white">layanan unggulan B</p>
-                </div>
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-bars"></i>
-                  </button>
-                  <p class="color-white">playanan unggulan C</p>
-                </div> 
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-refresh"></i>
-                  </button>
-                  <p class="color-white">layanan unggulan D</p>
-                </div>
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-bank"></i>
-                  </button>
-                  <p class="color-white">layanan unggulan E</p>
-                </div>
-              </div>
+              
+
             </div>
           </div>
         </div>
@@ -302,36 +203,23 @@
       <section class="development-process bg-gray">
         <div class="container">
           <div class="col-md-12">
-            <div class="box-title-desc">
+            <div class="box-title-desc"> 
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-section">Artikel dan Informasi Kesehatan RSI Amal Sehat</span>
+                <span class="bg-section">Informasi Kesehatan</span>
               </div>
               <div class="desc color-black">
-                Disini letak artikel dan informasi atau kegiatan RSI Amal Sehat
+                RSI AMAL SEHAT
               </div>
             </div>
           </div>
           <div class="col-md-12">
-            <div class="stepwizard">
-              <div class="stepwizard-row">
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-success btn-circle">Berita Terkini</button>
-                  <p>Kegiatan</p>
-                </div>
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-success btn-circle">Produkterbaru</button>
-                  <p>Layanan</p>
-                </div>
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-success btn-circle">Dapat akreditasi A</button>
-                  <p>Berita</p>
-                </div> 
-                <div class="stepwizard-step">
-                  <button type="button" class="btn btn-success btn-circle">Aplikasi Amal Sehat</button>
-                  <p>Teknologi</p>
-                </div>
-              </div>
-            </div>
+            
+              
+                <?php
+                  include 'tampilkan_info_home.php';
+                ?>
+
+           
           </div>
         </div>
       </section>
@@ -463,39 +351,9 @@
       <!-- END SCOPE TESTIMONIAL CLIENT -->
 
       <!-- START SCOPE FOOTER -->
-      <footer class="footer-wrapper diagonal-shadow">
-        <div class="container">
-          <div class="col-md-12">
-            <div class="box-footer">
-              <div class="image">
-                <img src="assets/images/logo/logorsia.png" alt="" width="100" height="100">
-              </div>
-              <div class="social-media">
-                <a href="https://www.facebook.com/AmalSehatSragen/?locale=id_ID" class="btn btn-default btn-social-media facebook">
-                  <i class="fa fa-facebook"></i>
-                </a>
-                <a href="http://twitter.com" class="btn btn-default btn-social-media twitter">
-                  <i class="fa fa-twitter"></i>
-                </a>
-                <a href="http://linkedin.com" class="btn btn-default btn-social-media linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="https://www.instagram.com/rsiamalsehatsragen/" class="btn btn-default btn-social-media instagram">
-                  <i class="fa fa-instagram"></i>
-                </a>
-              </div>
-              <div class="corpyright">
-                <span>&copy; Corpytight 2025 RSI Amal Sehat Sragen</span><br>
-                <span>Anything Is Possible</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
+        <?php include 'footer.php'; ?>
       <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
+
     </div>
   </body>
 
