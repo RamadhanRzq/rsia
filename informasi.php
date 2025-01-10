@@ -74,7 +74,11 @@
               Pusat Informasi RSI Amal Sehat
             </div>
             <div class="description">
+<<<<<<< HEAD
               
+=======
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem atque perspiciatis animi dicta, quae nesciunt error facere commodi quos odio ex aliquid aspernatur hic nisi accusantium sequi mollitia et? Quos!
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
             </div>
           </div>
         </div>
@@ -82,6 +86,7 @@
       <!-- END SCOPE SUB HEADER -->
       
       <!-- START SCOPE LIST INFORMATION CAREER -->
+<<<<<<< HEAD
       <?php
         include 'tampilkan_informasi.php';
       ?>
@@ -90,6 +95,146 @@
         include 'tampilkan_promo.php';
       ?>
       
+=======
+      <section class="list-career bg-gray">
+        <div class="container">
+          <div class="col-md-7">
+            <div class="content">
+              <div class="title">
+                Lead Project Manager
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptas voluptates maiores, aut consequatur labore mollitia adipisci totam cumque suscipit, alias possimus incidunt accusamus nemo eligendi. Deleniti, sequi repellendus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, est, soluta. Minus fugit aliquid, facere necessitatibus dignissimos a placeat, quisquam. Similique consequatur tempore odit magnam saepe sunt sint explicabo id.
+              </div>
+              <a href="career_detail.html" class="btn btn-lg btn-apecsa-red">
+                <i class="fa fa-search"></i>
+                Lihat detail
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="image-career">
+              <img src="assets/images/career/lead.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="list-career bg-white">
+        <div class="container">
+          <div class="col-md-5">
+            <div class="image-career">
+              <img src="assets/images/career/webdevelopment.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="content">
+              <div class="title">
+                Full Stack Developer
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptas voluptates maiores, aut consequatur labore mollitia adipisci totam cumque suscipit, alias possimus incidunt accusamus nemo eligendi. Deleniti, sequi repellendus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, est, soluta. Minus fugit aliquid, facere necessitatibus dignissimos a placeat, quisquam. Similique consequatur tempore odit magnam saepe sunt sint explicabo id.
+              </div>
+              <a href="career_detail.html" class="btn btn-lg btn-apecsa-red">
+                <i class="fa fa-search"></i>
+                Lihat detail
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="list-career bg-gray">
+        <div class="container">
+          <div class="col-md-7">
+            <div class="content">
+              <div class="title">
+                Android Developer
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptas voluptates maiores, aut consequatur labore mollitia adipisci totam cumque suscipit, alias possimus incidunt accusamus nemo eligendi. Deleniti, sequi repellendus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, est, soluta. Minus fugit aliquid, facere necessitatibus dignissimos a placeat, quisquam. Similique consequatur tempore odit magnam saepe sunt sint explicabo id.
+              </div>
+              <a href="career_detail.html" class="btn btn-lg btn-apecsa-red">
+                <i class="fa fa-search"></i>
+                Lihat detail
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="image-career">
+              <img src="assets/images/career/webdevelopment.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="list-career bg-white">
+        <div class="container">
+          <div class="col-md-5">
+            <div class="image-career">
+              <img src="assets/images/career/iosdevelopment.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="content">
+              <div class="title">
+                iOS Developer
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptas voluptates maiores, aut consequatur labore mollitia adipisci totam cumque suscipit, alias possimus incidunt accusamus nemo eligendi. Deleniti, sequi repellendus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, est, soluta. Minus fugit aliquid, facere necessitatibus dignissimos a placeat, quisquam. Similique consequatur tempore odit magnam saepe sunt sint explicabo id.
+              </div>
+              <a href="career_detail.html" class="btn btn-lg btn-apecsa-red">
+                <i class="fa fa-search"></i>
+                Lihat detail
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="list-career bg-gray">
+        <div class="container">
+          <div class="col-md-7">
+            <div class="content">
+              <div class="title">
+                UI/UX Designer
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptas voluptates maiores, aut consequatur labore mollitia adipisci totam cumque suscipit, alias possimus incidunt accusamus nemo eligendi. Deleniti, sequi repellendus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, est, soluta. Minus fugit aliquid, facere necessitatibus dignissimos a placeat, quisquam. Similique consequatur tempore odit magnam saepe sunt sint explicabo id.
+              </div>
+              <a href="career_detail.html" class="btn btn-lg btn-apecsa-red">
+                <i class="fa fa-search"></i>
+                Lihat detail
+              </a>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="image-career">
+              <img src="assets/images/career/uiux.png" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="list-career bg-white">
+        <div class="container">
+          <div class="col-md-5">
+            <div class="image-career">
+              <img src="assets/images/career/frontenddeveloper.png" alt="">
+            </div>
+          </div>
+          <div class="col-md-7">
+            <div class="content">
+              <div class="title">
+                Frontend Developer
+              </div>
+              <div class="desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus voluptas voluptates maiores, aut consequatur labore mollitia adipisci totam cumque suscipit, alias possimus incidunt accusamus nemo eligendi. Deleniti, sequi repellendus cum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, est, soluta. Minus fugit aliquid, facere necessitatibus dignissimos a placeat, quisquam. Similique consequatur tempore odit magnam saepe sunt sint explicabo id.
+              </div>
+              <a href="career_detail.html" class="btn btn-lg btn-apecsa-red">
+                <i class="fa fa-search"></i>
+                Lihat detail
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
       <!-- END SCOPE LIST INFORMATION CAREER -->
 
       <!-- START SCOPE FOOTER -->

@@ -66,11 +66,16 @@
       <!-- END SCOPE NAVBAR BOOTSTRAP -->
       
       <!-- START SCOPE SUB HEADER -->
+<<<<<<< HEAD
       <!-- <section class="sub-header parallax-apecsa bg-portfolio">
+=======
+      <section class="sub-header parallax-apecsa bg-portfolio">
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
         <div class="bg-overlay-full"></div>
         <div class="container">
           <div class="col-md-12">
             <div class="title">
+<<<<<<< HEAD
               Dokter Kami
             </div>
             <div class="description">
@@ -79,6 +84,16 @@
           </div>
         </div>
       </section> -->
+=======
+              Our Portfolio
+            </div>
+            <div class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem atque perspiciatis animi dicta, quae nesciunt error facere commodi quos odio ex aliquid aspernatur hic nisi accusantium sequi mollitia et? Quos!
+            </div>
+          </div>
+        </div>
+      </section>
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
       <!-- END SCOPE SUB HEADER -->
       
         <!-- START SCOPE OUR TEAM -->
@@ -89,7 +104,11 @@
               <div class="title color-black bdr-btm-gray">
                 <span class="bg-white">Dokter Kami</span>
               </div>
+<<<<<<< HEAD
               <div class="desc color-black">
+=======
+              <div class="desc color-white">
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
                 We are team professional
               </div>
             </div>
@@ -97,11 +116,221 @@
           <div class="col-md-12">
             <div class="row">
               <div class="list-team">
+<<<<<<< HEAD
                 
                 <?php
                   include 'tampilkan_dokter.php';
                 ?>
                  
+=======
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user2.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Dimas Setyo Utomo</div>
+                          <div class="position">CEO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user3.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Rizqi Rahmandaputra</div>
+                          <div class="position">CMO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user2.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Yuri Ardila</div>
+                          <div class="position">CTO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user2.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Farizan Firdaus</div>
+                          <div class="position">CFO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user3.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Andriat Ratyanto</div>
+                          <div class="position">Technical Sales</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user2.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Uray Harin Hebert</div>
+                          <div class="position">Bussines Development</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user3.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Christian Tobing</div>
+                          <div class="position">Presales Executive</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user2.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Anggi Pradityo</div>
+                          <div class="position">Human Resource Manager</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user3.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Benendycta Meylina</div>
+                          <div class="position">Staff</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user2.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">M. Yusuf Ibrahim</div>
+                          <div class="position">Accounting Finance</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user3.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Teguh Hartono</div>
+                          <div class="position">Quality Assurance</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user2.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">M. Sulton Hassanudin</div>
+                          <div class="position">Senior Developer</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user3.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Febryan Setiawan</div>
+                          <div class="position">Software Engineering</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user2.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Maulana Musyadad</div>
+                          <div class="position">Software Engineering</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/user3.png" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="name">Fathan Rohman</div>
+                          <div class="position">Frontend Developer</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="box-user">
+                    <div class="image">
+                      <img src="assets/images/client/no-client.gif" alt="Fathan">
+                      <div class="overlay">
+                        <div class="box-info">
+                          <div class="position">We are Hiring!</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
               </div>
             </div>
           </div>
@@ -109,6 +338,32 @@
       </section>
       <!-- END SCOPE OUR TEAM -->
 
+<<<<<<< HEAD
+=======
+
+      <!-- START SCOPE INTRODUCE CONTACT US -->
+      <section class="parallax-apecsa bg-portfolio introduce-wrapper contact-us">
+        <div class="bg-overlay-full"></div>
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-title-desc">
+              <div class="title color-white">
+                <span>Contact Us</span>
+              </div>
+              <div class="desc color-white">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque, quisquam blanditiis, voluptatibus, delectus nesciunt tenetur cupiditate quae facere voluptates nihil saepe tempora laboriosam alias a quod! Libero, ipsum, blanditiis.
+              </div>
+              <a href="contactus.html" class="btn btn-apecsa-red btn-lg">
+                <i class="fa fa-envelope"></i>
+                Hubungi Kami
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END SCOPE INTRODUCE CONTACT US -->
+
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
       <!-- START SCOPE FOOTER -->
         <?php include 'footer.php'; ?>
       <!-- END SCOPE FOOTER -->

@@ -47,6 +47,7 @@
     <meta itemprop="image" content="https://website.com/image250X250.png"/>
 
     <!-- SCOPE STLYESHEET -->
+<<<<<<< HEAD
     <link rel="icon" type="image/ico" href="../assets/images/logo/logorsia.png"/>
     <link rel="stylesheet" href="../assets/css/bootstrap.css">
     <link rel="stylesheet" href="../assets/css/font-awesome.css">
@@ -58,6 +59,19 @@
     <link rel="stylesheet" href="../assets/css/main-responsive.css">
 
     <script src="../assets/js/jquery-3.1.0.min.js"></script>
+=======
+    <link rel="icon" type="image/ico" href="assets/images/logo/logorsia.png"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/revolution-slider.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/owl.transitions.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/main-responsive.css">
+
+    <script src="assets/js/jquery-3.1.0.min.js"></script>
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
   </head>
   <body>
 
@@ -99,9 +113,17 @@
   </body>
 
   <!-- SCOPE JAVASCRIPT -->
+<<<<<<< HEAD
   <script src="../assets/js/bootstrap.js"></script>
   <script src="../assets/js/jquery.scrolltofixed.js"></script>
   <script src="../assets/js/wow.min.js"></script>
   <script src="../assets/js/jquery.scrollspeed.js"></script>
   <script src="../assets/js/main.js"></script>
+=======
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/jquery.scrolltofixed.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.scrollspeed.js"></script>
+  <script src="assets/js/main.js"></script>
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
   </html>

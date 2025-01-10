@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 <?php
 include('conf/koneksi.php');
 ?>
 
+=======
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
 <!DOCTYPE html>
 <html>
   <head>
@@ -77,6 +80,7 @@ include('conf/koneksi.php');
             <div class="title">
               Jadwal Doker RSI Amal Sehat Sragen
             </div>
+<<<<<<< HEAD
             <div class="table-responsive">
              
               <table class="table table-striped table-bordered table-hover table-sm">
@@ -125,6 +129,38 @@ include('conf/koneksi.php');
                   ?>
 
 
+=======
+            <div class="description">
+             
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">NO</th>
+                    <th scope="col">Dokter</th>
+                    <th scope="col">Kategori</th>
+                    <th scope="col">Praktek</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                  </tr>
+>>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
                 </tbody>
               </table>
 
