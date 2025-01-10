@@ -87,7 +87,6 @@ $data_cek = mysqli_fetch_array($query_cek, MYSQLI_BOTH);
         <div class="container">
           <div class="col-md-12">
             <div class="title">
-<<<<<<< HEAD
                 Poli Penyakit Dalam
             </div>
             <div class="description">
@@ -98,13 +97,11 @@ $data_cek = mysqli_fetch_array($query_cek, MYSQLI_BOTH);
               <?php echo $data_cek['badan_poli']; ?>
             </div>
 
-=======
               Poli Anak
             </div>
             <div class="description">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem atque perspiciatis animi dicta, quae nesciunt error facere commodi quos odio ex aliquid aspernatur hic nisi accusantium sequi mollitia et? Quos!
             </div>
->>>>>>> ac6bedf6394acc6bce02268d5283adad02dae999
           </div>
         </div>
       </section>
